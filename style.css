@@ -11,6 +11,9 @@ body{
     font-family:'Poppins',sans-serif;
     background-color: #E5E5E5;
 }
+.container{
+    width: 1050px;
+}
 .section-title{
     font-size: 35px;
     font-weight: 700;
