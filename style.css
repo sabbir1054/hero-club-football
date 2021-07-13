@@ -2,60 +2,200 @@
     Google Fonts Import
 ================================ */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@500&display=swap');
+
 /*=====================================
         Common Style Section 
 ===================================== */
-body{
+body {
     margin: 0;
     padding: 0;
-    font-family:'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #E5E5E5;
 }
-.container{
+
+.container {
     width: 1050px;
+    
 }
-.section-title{
+
+.section-title {
     font-size: 35px;
     font-weight: 700;
     color: black;
 }
-h2{
+
+h1 {
+    margin: 0;
+    font-size: 35px;
+}
+
+h2 {
+    margin: 0;
     font-size: 28;
-    font-weight: 400;
+    font-weight: 700;
     color: black;
 }
-p{
+
+p {
     font-size: 16px;
     color: #6C6C6C;
 }
-button{
+
+.live-btn {
     width: 173px;
     height: 44px;
     background: #E02C6D;
     padding: 10px 24px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;
+}
+
+.live-btn:hover {
+    background-color: white;
+    color: #E02C6D;
+    border: 2px solid #E02C6D;
 }
 
 /*=====================================
         Header  Section
 ===================================== */
+header {
+    background-color: #2D25A0;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.header-part {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 15vh 0vw;
+}
+
+.hero-text {
+    font-size: 66px;
+}
+
+.header-right {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.header-right img {
+    width: 100%;
+    transition: all 0.8s ease-in-out;
+
+}
+
+.header-right img:hover {
+    transform: rotate(360deg);
+}
 
 
 /*=====================================
         Our Player  Section
 ===================================== */
 
+main {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 100px;
+}
+
+main h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+.players-bio {
+    width: 1050px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-gap: 20px;
+    
+}
+
+.player {
+    width: 330px;
+    height: 474px;
+    padding: 25px 0px 0px 25px;
+
+    box-shadow: 0px 12px 16px #d8d8d8;
+
+}
+
+
+.player img {
+    width: 300px;
+    height: 256px;
+}
 
 /*=============================================
         Best Moments Photo Gallery Section
 =============================================== */
+.best-moments{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.best-moments h1{
+    text-align: center;
+    padding: 30px 0px;
+}
+.photo-gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.photo-gallery img{
+    width: 350px;
+    height: 200px;
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+    border: 10px solid white;
+    border-radius: 5px;
+}
 
-
-
+.photo-gallery img:hover {
+  transform: scale(1.1);
+  overflow: hidden;
+}
 /*=============================================
         Our Achievement Section
 =============================================== */
-
-
+.our-achievement{
+    margin-bottom: 100px;
+    background-color: #2D25A0;
+    color: #FDC52C;
+}
+.our-achievement h1,
+.our-achievement h2 {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.achievement{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: #FDC52C;
+}
+.achievement p{
+    font-size: 40px;
+    color: #FDC52C;
+}
+.achievement span{
+    font-size: 20px;
+}
 /*=============================================
         Social & Footer Section
 =============================================== */
