@@ -1,0 +1,58 @@
+/* ===============================
+    Google Fonts Import
+================================ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap');
+/*=====================================
+        Common Style Section 
+===================================== */
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins',sans-serif;
+    background-color: #E5E5E5;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+}
+h2{
+    font-size: 28;
+    font-weight: 400;
+    color: black;
+}
+p{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+button{
+    width: 173px;
+    height: 44px;
+    background: #E02C6D;
+    padding: 10px 24px;
+}
+
+/*=====================================
+        Header  Section
+===================================== */
+
+
+/*=====================================
+        Our Player  Section
+===================================== */
+
+
+/*=============================================
+        Best Moments Photo Gallery Section
+=============================================== */
+
+
+
+/*=============================================
+        Our Achievement Section
+=============================================== */
+
+
+/*=============================================
+        Social & Footer Section
+=============================================== */
