@@ -114,7 +114,7 @@ main h1 {
 }
 
 .players-bio {
-    width: 1050px;
+    
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
@@ -226,3 +226,73 @@ footer{
     text-align: center;
     margin-bottom: 50px;
 }
+
+/* ================================
+Responsive Style Section 
+================================== */
+
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .header-part {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 15vh 0vw;
+    }
+    .header-left{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .players-bio {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+    }
+    .photo-gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .achievement{
+        display: block;
+    }
+
+    .footer img{
+        width: 70%;
+    }
+    
+}
+
+/* tablet devices */
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .container {
+        width: 100%;
+    }
+    .header-left {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .header-part {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 15vh 0vw;
+    }
+    .players-bio {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 7vw;
+    }
+    .photo-gallery {
+        
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+    .achievement{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
