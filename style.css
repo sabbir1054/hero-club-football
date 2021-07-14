@@ -19,11 +19,6 @@ body {
 
 }
 
-.section-title {
-    font-size: 35px;
-    font-weight: 700;
-    color: black;
-}
 
 h1 {
     margin: 0;
@@ -159,7 +154,7 @@ main h1 {
 }
 
 .photo-gallery img {
-    width: 350px;
+    width: 300px;
     height: 200px;
     transition: all 0.3s ease-in;
     overflow: hidden;
@@ -263,13 +258,10 @@ Responsive Style Section
         margin-bottom: 70px;
     }
 
-    .hero-text {
-        padding-right: 20vw;
+    .hero-text{
+        font-size: 60px;
     }
 
-    .header-right {
-        padding: 25px;
-    }
 
     .players-bio {
         display: flex;
@@ -278,12 +270,13 @@ Responsive Style Section
 
     }
 
+    
     .photo-gallery {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
+    
     .achievement {
         display: block;
     }
@@ -306,19 +299,12 @@ Responsive Style Section
         margin-bottom: 70px;
     }
 
-    .hero-text {
-        padding-right: 26vw;
-    }
-
     .header-part {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         padding: 15vh 0vw;
     }
 
-    .header-right {
-        padding: 25px;
-    }
 
     .players-bio {
         grid-template-columns: repeat(2, 1fr);
@@ -330,7 +316,7 @@ Responsive Style Section
         grid-template-columns: repeat(2, 1fr);
 
     }
-
+    
     .achievement {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
