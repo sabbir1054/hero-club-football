@@ -16,7 +16,7 @@ body {
 
 .container {
     width: 1050px;
-    
+
 }
 
 .section-title {
@@ -114,12 +114,12 @@ main h1 {
 }
 
 .players-bio {
-    
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     grid-gap: 20px;
-    
+
 }
 
 .player {
@@ -140,22 +140,25 @@ main h1 {
 /*=============================================
         Best Moments Photo Gallery Section
 =============================================== */
-.best-moments{
+.best-moments {
     margin-top: 30px;
     display: flex;
     justify-content: center;
     margin-bottom: 70px;
 }
-.best-moments h1{
+
+.best-moments h1 {
     text-align: center;
     padding: 30px 0px;
 }
-.photo-gallery{
+
+.photo-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
 }
-.photo-gallery img{
+
+.photo-gallery img {
     width: 350px;
     height: 200px;
     transition: all 0.3s ease-in;
@@ -165,17 +168,20 @@ main h1 {
 }
 
 .photo-gallery img:hover {
-  transform: scale(1.1);
-  overflow: hidden;
+    transform: scale(1.1);
+    overflow: hidden;
 }
+
 /*=============================================
         Our Achievement Section
 =============================================== */
-.our-achievement{
+.our-achievement {
     margin-bottom: 100px;
     background-color: #2D25A0;
     color: #FDC52C;
+    padding: 50px 0px;
 }
+
 .our-achievement h1,
 .our-achievement h2 {
     margin-top: 20px;
@@ -183,46 +189,54 @@ main h1 {
     margin-bottom: 20px;
     color: #ffffff;
 }
-.achievement{
+
+.achievement {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     color: #FDC52C;
 }
-.achievement p{
+
+.achievement p {
     font-size: 40px;
     color: #FDC52C;
 }
-.achievement span{
+
+.achievement span {
     font-size: 20px;
 }
+
 /*=============================================
         Social & Footer Section
 =============================================== */
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     background-color: white;
     padding-top: 50px;
 }
-.footer img{
+
+.footer img {
     width: 483px;
     height: 100px;
     margin-bottom: 20px;
 }
-.social{
+
+.social {
     display: flex;
     justify-content: space-evenly;
     font-size: 32px;
     margin-bottom: 20px;
-    
+
 }
-.social a{
+
+.social a {
     text-decoration: none;
     color: #2D25A0;
 }
-.footer p{
+
+.footer p {
     text-align: center;
     margin-bottom: 50px;
 }
@@ -233,37 +247,51 @@ Responsive Style Section
 
 /* Mobile Devices */
 @media only screen and (max-width:688px) {
-    .container{
+    .container {
         width: 100%;
     }
+
     .header-part {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         padding: 15vh 0vw;
     }
-    .header-left{
-        text-align: center;
-        margin-bottom: 50px;
+
+    .header-left {
+        text-align: left;
+        margin-left: 5vw;
+        margin-bottom: 70px;
     }
+
+    .hero-text {
+        padding-right: 20vw;
+    }
+
+    .header-right {
+        padding: 25px;
+    }
+
     .players-bio {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
     }
+
     .photo-gallery {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .achievement{
+
+    .achievement {
         display: block;
     }
 
-    .footer img{
+    .footer img {
         width: 70%;
     }
-    
+
 }
 
 /* tablet devices */
@@ -271,28 +299,40 @@ Responsive Style Section
     .container {
         width: 100%;
     }
+
     .header-left {
-        text-align: center;
-        margin-bottom: 50px;
+        text-align: left;
+        margin-left: 5vw;
+        margin-bottom: 70px;
     }
+
+    .hero-text {
+        padding-right: 26vw;
+    }
+
     .header-part {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         padding: 15vh 0vw;
     }
+
+    .header-right {
+        padding: 25px;
+    }
+
     .players-bio {
         grid-template-columns: repeat(2, 1fr);
         margin-left: 7vw;
     }
+
     .photo-gallery {
-        
+
         grid-template-columns: repeat(2, 1fr);
-        
+
     }
 
-    .achievement{
+    .achievement {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 }
-
